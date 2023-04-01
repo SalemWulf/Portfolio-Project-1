@@ -1,0 +1,467 @@
+/* Colors */
+:root {
+    --text-color3: white;
+    --borders: white;
+    --hover: #c388ff;
+    --White: #fff;
+    --text-color1: #d9bcf6;
+    --text-color2: #bf7ef5;
+    --background1: #be7dff;
+    --background2: #81a5ff;
+    --shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+
+.darkmode {
+    --text-color3: white;
+    --borders: #111010;
+    --hover: #b6a1ff;
+    --White: white;
+    --text-color1: #c78cff;
+    --text-color2: #471e54;
+    --background1: #0c1445;
+    --background2: #471e54;
+}
+
+.pinkmode {
+    --borders: #f944a2;
+    --hover: #ff91e5;
+    --White: #F7C8E0;
+    --text-color1: #fdb0e7;
+    --text-color2: #F473B9;
+    --background1: #fd68c7;
+    --background2: #ff8aa2;
+    --text-color3: #f899d2;
+}
+
+/* Buttons */
+.CSS-buttons {
+    font-size: 1.8rem;
+    padding: 1rem;
+    background-color: var(--background1);
+    border-radius: 1.5rem;
+    border: none;
+    margin-right: 10px;
+    margin-bottom: 2rem;
+    color: var(--White);
+    width: auto;
+    font-family: 'Lobster', cursive;
+}
+
+.CSS-buttons:hover {
+    opacity: 0.75;
+}
+
+/* Buttons */
+/*glass*/
+/* From https://css.glass */
+.wrap-glass {
+    background: rgba(255, 255, 255, 0.36);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.1px);
+    -webkit-backdrop-filter: blur(5.1px);
+    border: 1px solid rgba(255, 255, 255, 0.45);
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.36);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.1px);
+    -webkit-backdrop-filter: blur(5.1px);
+    border: 1px solid rgba(255, 255, 255, 0.45);
+    width: 80%;
+    margin: 0 auto 0 auto;
+    margin-top: 20px;
+}
+
+/* Scroll Bar */
+::-webkit-scrollbar {
+    width: 1em;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--borders);
+
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(95deg, var(--background1) 11%, var(--background2)100%);
+    border-radius: 100vw;
+    border: 0.25em solid var(--borders);
+
+}
+
+/* Navbar */
+.navbar {
+    font-family: 'Lobster', cursive;
+    background-color: var(--borders);
+}
+
+@media only screen and (min-width: 600px) {
+    .navbar {
+        height: 100px !important;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .navbar {
+        height: 150px !important;
+    }
+}
+
+.nav-link {
+    font-size: 30px !important;
+    color: var(--text-color1) !important;
+    margin-right: 50px;
+}
+
+.nav-link:hover {
+    color: var(--hover) !important;
+}
+
+/* Footer */
+.footer {
+    background-color: var(--borders);
+    text-align: center;
+    padding-bottom: 5px;
+    color: var(--text-color1) !important;
+    font-family: 'Lobster', cursive;
+}
+
+.foot {
+    font-size: 40px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+    color: var(--text-color1);
+}
+
+.foot:hover {
+    opacity: 0.75;
+}
+
+.name-foot {
+    font-size: 20px;
+
+}
+
+.foot-head {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 90px !important;
+}
+
+.foot-two {
+    font-size: 40px !important;
+}
+
+/* Text */
+.title {
+    width: 400px !important;
+    color: var(--White);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: var(--White) !important;
+    font-family: 'Lobster', cursive;
+}
+
+h1 {
+    font-size: 90px !important;
+    text-align: center;
+
+}
+
+h2 {
+    font-size: 60px !important;
+    text-align: center;
+
+}
+
+h4 {
+    font-size: 40px !important;
+
+}
+
+h5 {
+    font-size: 40px !important;
+    text-align: center;
+}
+
+h5:hover {
+    color: var(--hover) !important;
+}
+
+.header {
+    margin-top: 80px;
+}
+
+.list {
+    font-family: 'Lobster', cursive;
+    color: var(--text-color1);
+}
+
+/* Background */
+body {
+    background: #c89;
+    background: linear-gradient(95deg, var(--background1) 11%, var(--background2)100%);
+    text-align: center;
+}
+
+/* Background */
+/* Quote*/
+.Quote {
+
+    margin: 100px;
+}
+
+/* Quote*/
+/* Lucky Number */
+.number-generator {
+    margin-top: 3rem;
+    text-align: center;
+    padding: 1rem;
+    font-family: 'Lobster', cursive;
+}
+
+.number-title {
+    margin-bottom: 30px;
+    color: var(--White) !important;
+}
+
+#number {
+    font-size: 80px;
+    display: block;
+    color: var(--text-color2);
+}
+
+/* Lucky Number */
+/* watch*/
+.watch {
+    margin-top: 5rem;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    padding: 20px;
+    color: var(--White);
+}
+
+.watch1 {
+    font-size: 120px;
+    margin-top: 2rem;
+}
+
+.time {
+    font-size: 80px;
+}
+
+.watch2 {
+    color: var(--text-color2);
+    font-size: 90px !important;
+}
+
+/* watch*/
+/* To do List*/
+input:not([type="radio"]),
+.button {
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+    cursor: initial;
+}
+
+#new-task-form {
+    width: 100%;
+}
+
+input,
+button {
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+#new-task-input {
+    flex: 1 1 0%;
+    background-color: var(--borders);
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-top-left-radius: 1rem;
+    color: var(--text-color2);
+    font-size: 2rem;
+    font-family: 'Lobster', cursive;
+}
+
+
+#new-task-submit {
+    color: var(--text-color2);
+    font-size: 2rem;
+    cursor: pointer;
+    border-bottom-right-radius: 1rem;
+    border-top-right-radius: 1rem;
+    background-color: var(--borders);
+    font-family: 'Lobster', cursive;
+    padding: 1rem;
+}
+
+#new-task-submit:hover {
+    opacity: 0.75;
+}
+
+main {
+    flex: 1 1 0%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.task-list {
+    padding: 1rem;
+}
+
+#tasks .task {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    background-color: var(--borders);
+    font-family: 'Lobster', cursive;
+
+}
+
+.task .content {
+    flex: 1 1 0%;
+}
+
+.task .content .text {
+    background-color: var(--borders);
+    color: var(--text-color2);
+    font-size: 1.125rem;
+    width: 100%;
+    display: block;
+    font-size: 3rem;
+}
+
+.task .actions {
+    display: flex;
+    margin: 0 -0.5rem;
+}
+
+.task .actions button {
+    cursor: pointer;
+    margin: 0 0.5rem;
+
+}
+
+/* To do List*/
+/*Customizing*/
+.colors {
+    width: 30px !important;
+    height: 30px !important;
+    margin: 17px auto !important;
+    border-radius: 70% !important;
+
+    cursor: pointer;
+}
+
+#blue {
+    background: radial-gradient(circle, #f280b2 0%, #fc4695 100%);
+}
+
+#red {
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+}
+
+#yellow {
+    background: linear-gradient(90deg, rgba(201, 174, 238, 1) 0%, #e99494 100%);
+}
+
+#green {
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, #1b9125 100%);
+}
+
+#purple {
+    background-image: radial-gradient(circle, #5365b7, purple);
+}
+
+/*Customizing*/
+/* Fortune*/
+
+.card2 {
+    box-shadow: var(--shadow);
+    padding: 0 0;
+    background-size: cover;
+    max-width: 25ch;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin: 5px;
+}
+
+.card2:hover {
+    transform: scale(1.03);
+}
+
+.card-content {
+    padding-left: 1em;
+    background-color: var(--borders);
+    transform: translateY(80%);
+    transition: transform 600ms ease;
+    padding-bottom: 40px;
+    background-color: var(--text-color3);
+}
+
+.card2:hover .card-content {
+    transform: translateY(0);
+}
+
+.card-title2 {
+    position: relative;
+    width: max-content;
+    font-size: 40px !important;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    margin-bottom: 60px;
+
+}
+
+.card-title2::after {
+    content: "";
+    position: absolute;
+    height: 4px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: var(--background1);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: left;
+    transition: transform 1400ms ease;
+}
+
+.card2:hover .card-title2::after {
+    transform: scaleX(1);
+}
+
+.card-button2 {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.card-button2:hover {
+    opacity: 0.75;
+}
+
+.img-card {
+    width: 50px;
+    height: 50px;
+}
+
+
+/* Fortune*/
